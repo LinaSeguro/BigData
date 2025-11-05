@@ -1,2 +1,1 @@
-# Explicación del Modelo Entidad-Relación (ERD):
-El diagrama ERD representa la estructura de la base de datos para analizar las ventas de artículos deportivos. Contiene las tablas PRODUCTO y CLIENTE, que almacenan la información de los productos y de los clientes respectivamente, y la tabla VENTAS, que registra las transacciones individuales. La tabla PRODUCTO_CLIENTE_VENTAS actúa como tabla consolidada, integrando todos los atributos de producto, cliente y venta, permitiendo relacionar fácilmente cada venta con el producto vendido y el cliente que la realizó. Este modelo facilita realizar consultas analíticas sobre el comportamiento de las ventas, identificar productos más vendidos, analizar los clientes y evaluar el desempeño por canal de venta.
+
