@@ -1,4 +1,4 @@
-# BigData
+# 🚀 Portafolio de Big Data: Caso SportZone
 # 🟦 Evidencia de Aprendizaje 1 — Creación de Base de Datos Analítica
 Databricks | SQL | Unity Catalog
 ## 👥 Integrantes
@@ -51,21 +51,24 @@ Incluye información de:
 ### 3️⃣ Consulta con Filtro (Ventas en Miami)
 ```SELECT * FROM tbl_ventas 
  WHERE ciudad = 'Miami' 
-LIMIT 10;```
+LIMIT 10;
+```
+### 📐 Modelo Entidad-Relación (ERD)
+Diagrama diseñado para visualizar las relaciones entre las tablas de la base de datos:
+
+<p align="center">
+  <img src="./Actividad_1/ERD.png" alt="ERD Actividad 1" width="600"/>
+</p>
 
 ## 📂 Estructura del Repositorio (Actividad 1)
-```📁 /
-├── README.md
-├── Rodriguez_Jorge_Seguro_Lina_Actividad_1.ipynb
-├── assets/
-│   ├── banner.gif
-│   ├── problem.gif
-│   ├── goal.gif
-│   ├── dataset.gif
-│   ├── count.gif
-│   ├── columns.gif
-│   ├── filter.gif
-└── (otros archivos opcionales)
+```
+📂 BIGDATA/
+├── 📂 Actividad_1/
+│   ├── 🖼️ ERD.png
+│   ├── 📓 Rodriguez_Jorge_Seguro_Lina_Actividad_1.ipynb
+│   └── 🖼️ VR.png
+├── ⚙️ .gitignore
+└── 📄 README.md
 ```
 
 ## 🧠 Conclusiones (Actividad 1)
@@ -134,7 +137,9 @@ b. Esquema SportZone
 
 Diagrama  Unity Catalog utilizado en el proyecto:
 
-![Esquema](./Actividad_2/Esquema.png)
+<p align="center">
+  <img src="./Actividad_2/Esquema.png" alt="Esquema" width="300"/>
+</p>
 
 c. DDL del Esquema (Spark SQL)
 
@@ -276,21 +281,19 @@ Incluye:
 6. Ejecutar notebook
 
 ## 📂 Estructura del Repositorio (Actividad 2)
-```📁 /
-├── README.md
-├── Rodriguez_Jorge_Seguro_Lina_Actividad_2.ipynb
-├── DDL.sql
-├── assets/
-│   ├── banner.gif
-│   ├── databricks.gif
-│   ├── pipeline.gif
-│   ├── loading.gif
-│   ├── sql_vs_spark.gif
-│   ├── product.png
-│   ├── client.png
-│   ├── store.png
-│   └── esquema.png
-└── AF_offline_sales_dataset.csv
+```
+📂 BIGDATA/
+├── 📂 Actividad_2/
+│   ├── 🖼️ 1.png
+│   ├── 🖼️ 2.png
+│   ├── 🖼️ 3.png
+│   ├── 🖼️ 4.png
+│   ├── 💾 DDL.sql
+│   ├── 🖼️ Esquema.png
+│   ├── 📓 Rodriguez_Jorge_Seguro_Lina_Actividad_2.ipynb
+│   └── 🖼️ VD.png
+├── ⚙️ .gitignore
+└── 📄 README.md
 ```
 
 ## 🧠 Conclusiones (Actividad 2)
