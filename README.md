@@ -311,3 +311,52 @@ Incluye:
 ✨ Jorge Armando Rodriguez
 
 ✨ Lina Johana Seguro Gaviria
+
+
+# Proyecto Integrador: Análisis de Ventas Online (Big Data)
+
+Este repositorio contiene la **Evidencia de Aprendizaje 3** del Proyecto Integrador. El objetivo principal es realizar un análisis exploratorio y limpieza de datos sobre un dataset de ventas online utilizando **PySpark** para el procesamiento de datos masivos y librerías de Python para la visualización.
+
+## 👥 Integrantes del Equipo
+* **Jorge Armando Rodriguez**
+* **Lina Johana Seguro Gaviria**
+* **Justin Beckham Cardona Yepes**
+
+## 📋 Descripción del Proyecto
+El proyecto procesa el archivo `AF_online_sales_dataset.csv` para limpiar, normalizar y analizar el comportamiento de las ventas. Se implementa un flujo de trabajo de Big Data que abarca desde la ingesta de datos hasta la generación de insights visuales.
+
+### Objetivos Cumplidos
+1.  **Ingesta de Datos:** Carga del dataset en un DataFrame de Spark.
+2.  **Limpieza y Calidad de Datos:**
+    * Normalización de categorías (marcas).
+    * Tratamiento de valores nulos y negativos.
+    * Imputación de datos faltantes en montos usando la media.
+    * Detección y eliminación de *outliers* (valores atípicos) utilizando el rango intercuartílico (IQR).
+3.  **Ingeniería de Características:** Extracción de componentes de fecha (Año, Mes, Día, Día de la semana).
+4.  **Análisis Agregado:** Creación de resúmenes mensuales de ventas.
+5.  **Visualización:** Generación de gráficos estáticos e interactivos para interpretar los datos.
+
+## 🛠️ Tecnologías Utilizadas
+* **Lenguaje:** Python
+* **Procesamiento Big Data:** Apache Spark (PySpark)
+* **Manipulación de Datos:** Pandas
+* **Visualización:** Matplotlib, Seaborn, Plotly Express
+* **Entorno:** Databricks / Jupyter Notebook
+
+## 📊 Resultados y Conclusiones
+Tras el análisis de los datos, se obtuvieron los siguientes hallazgos clave:
+
+1.  **Concentración de Ventas:** Las ventas se centran mayoritariamente en pocas marcas específicas (ej. *Rawlings*, *Under Armour*), mientras que marcas como *Reebok* tienen menor rotación.
+2.  **Comportamiento Diario:** El promedio de ventas es estable a lo largo de la semana, oscilando entre 228 y 230, con un ligero repunte los días miércoles.
+3.  **Análisis de Precios:**
+    * Los precios se mantienen estables durante el año (baja estacionalidad en precios).
+    * La variación del precio final depende drásticamente de la marca (marcas premium como *Warrior Shield* vs. económicas como *Under Armour*) más que de la fecha de compra.
+
+## 🚀 Cómo ejecutar este proyecto
+1.  Clona este repositorio.
+2.  Asegúrate de tener un entorno con soporte para **PySpark** (como Databricks, Google Colab o un entorno local configurado).
+3.  Carga el archivo `AF_online_sales_dataset.csv` en tu sistema de archivos o DBFS.
+4.  Ejecuta el notebook `Seguro_Lina_Rodriguez_Jorge_Justin_Cardona_Actividad_3.ipynb`.
+
+---
+*Proyecto realizado como parte de la Evidencia de Aprendizaje 3.*
